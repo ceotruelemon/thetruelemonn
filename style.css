@@ -1,56 +1,49 @@
 :root {
-  --brand: #eb6d20;
-  --dark: #1a1a1a;
-  --white: #ffffff;
+  --primary: #F56400;
+  --dark: #222222;
+  --white: #FFFFFF;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Segoe UI", sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 body {
-  background: #fafafa;
-  color: #222;
+  background: var(--white);
+  color: var(--dark);
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 18px 40px;
+  padding: 20px 40px;
   background: var(--white);
-  position: sticky;
-  top: 0;
 }
 
 .logo {
   font-size: 22px;
-  font-weight: 600;
+  font-weight: bold;
 }
 
 nav a {
   margin-left: 20px;
   text-decoration: none;
-  color: #222;
+  color: var(--dark);
 }
 
 .hero {
-  background: linear-gradient(135deg, var(--brand), #ff9a4d);
-  color: white;
-  padding: 90px 20px;
+  background: var(--primary);
+  color: var(--white);
+  padding: 80px 20px;
   text-align: center;
-}
-
-.hero h1 {
-  font-size: 44px;
-  margin-bottom: 20px;
 }
 
 .btn {
   background: var(--dark);
-  color: white;
+  color: var(--white);
   padding: 12px 22px;
   border: none;
   cursor: pointer;
@@ -58,63 +51,51 @@ nav a {
 
 .btn.outline {
   background: transparent;
-  border: 2px solid white;
+  border: 2px solid var(--white);
 }
 
 .stats {
   display: flex;
   justify-content: space-around;
   padding: 40px;
-  background: white;
 }
 
 .section {
-  padding: 70px 20px;
+  padding: 60px 20px;
   text-align: center;
 }
 
 .section.dark {
   background: var(--dark);
-  color: white;
+  color: var(--white);
 }
 
 .section.light {
-  background: #fff3ec;
-}
-
-.sub {
-  margin-top: 10px;
-  color: #666;
+  background: #fff2e8;
 }
 
 .cards {
-  margin-top: 40px;
   display: grid;
+  gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 25px;
+  margin-top: 30px;
 }
 
 .card {
-  background: white;
-  padding: 30px;
-  border-radius: 10px;
+  background: var(--white);
+  padding: 25px;
+  border-radius: 8px;
 }
 
 .section.dark .card {
-  background: #2a2a2a;
+  background: #333;
 }
 
 .steps {
   display: grid;
-  gap: 25px;
+  gap: 20px;
   max-width: 800px;
   margin: auto;
-}
-
-.testimonials img {
-  width: 50px;
-  border-radius: 50%;
-  margin-bottom: 10px;
 }
 
 .form {
@@ -134,4 +115,5 @@ footer {
   background: #111;
   color: #aaa;
   padding: 20px;
+  text-align: center;
 }
