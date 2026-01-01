@@ -1,173 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The True Lemon | Sales & Marketing Experts</title>
 
-  <title>The True Lemon — Futuristic Sales & Marketing Marketplace</title>
-
-  <!-- SEO -->
-  <meta name="description" content="The True Lemon is a managed sales & marketing marketplace with a dedicated manager, verified experts, and futuristic design.">
-  <meta name="keywords" content="sales outsourcing, marketing freelancers, managed marketplace, sales support">
-  
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="style.css" />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- 🎯 HEADER NAV -->
-<header class="navbar">
-  <div class="brand">
-    🍋 <span class="brand-text">The True Lemon</span>
-  </div>
-  <nav class="nav-links">
+<!-- NAV -->
+<header class="nav">
+  <div class="brand">🍋 The True Lemon</div>
+  <nav>
     <a href="#services">Services</a>
-    <a href="#how">How It Works</a>
-    <a href="#testimonials">Testimonials</a>
-    <a href="#contact" class="btn btn-primary">Get Started</a>
+    <a href="#how">Process</a>
+    <a href="#trust">Trust</a>
+    <button class="btn-primary" onclick="scrollToForm()">Get Started</button>
   </nav>
 </header>
 
-<!-- 👋 HERO -->
+<!-- HERO -->
 <section class="hero">
-  <div class="hero-content">
-    <h1>Sales & Marketing — Evolved.</h1>
-    <p>Verified experts, dedicated support, and future-ready execution — all under one platform.</p>
-    <div class="hero-buttons">
-      <button class="btn btn-primary" onclick="openForm('Client')">Hire Experts</button>
-      <button class="btn btn-outline" onclick="openForm('Freelancer')">Join as Freelancer</button>
+  <div class="hero-inner">
+    <h1>Hire Sales & Marketing Experts<br>Without Hiring Headaches</h1>
+    <p>
+      A managed marketplace with verified freelancers and a dedicated manager for every client.
+    </p>
+    <div class="hero-cta">
+      <button class="btn-primary" onclick="scrollToForm()">Post Your Requirement</button>
+      <button class="btn-outline" onclick="scrollToForm()">Apply as Freelancer</button>
     </div>
   </div>
 </section>
 
-<!-- 🌟 STATS BANNER -->
-<section class="stats futuristic">
-  <div><h3>5+</h3><p>Years Experience</p></div>
-  <div><h3>1000+</h3><p>Verified Freelancers</p></div>
-  <div><h3>1200+</h3><p>Projects Delivered</p></div>
-  <div><h3>20%</h3><p>Transparent Commission</p></div>
+<!-- TRUST STATS -->
+<section class="stats">
+  <div><h3>5+</h3><span>Years Experience</span></div>
+  <div><h3>1000+</h3><span>Verified Experts</span></div>
+  <div><h3>1200+</h3><span>Projects Delivered</span></div>
+  <div><h3>20%</h3><span>Fair Commission</span></div>
 </section>
 
-<!-- 🚀 SERVICES -->
-<section id="services" class="section services-section">
-  <h2>Our Core Capabilities</h2>
-  <p class="sub">Futuristic solutions for your business growth</p>
-  <div class="cards services-cards">
-    <div class="card service-card">Lead Generation Systems</div>
-    <div class="card service-card">Performance Marketing (Meta / Google)</div>
-    <div class="card service-card">Sales Closers & SDRs</div>
-    <div class="card service-card">CRM Setup & Automation</div>
-    <div class="card service-card">Cold Outreach & Email Sequences</div>
-    <div class="card service-card">Funnel Strategy & Analytics</div>
+<!-- SERVICES -->
+<section id="services" class="section">
+  <h2>Sales & Marketing Services</h2>
+  <p class="section-sub">
+    Specialized experts for revenue-focused growth.
+  </p>
+
+  <div class="card-grid">
+    <div class="card">Lead Generation (B2B / B2C)</div>
+    <div class="card">Sales Closers & SDRs</div>
+    <div class="card">Cold Email & LinkedIn Outreach</div>
+    <div class="card">Performance Marketing</div>
+    <div class="card">CRM Setup & Automation</div>
+    <div class="card">Appointment Setters</div>
   </div>
 </section>
 
-<!-- ⚙ HOW IT WORKS -->
-<section id="how" class="section how-section">
-  <h2>How It Works</h2>
-  <div class="how-grid">
+<!-- HOW IT WORKS -->
+<section id="how" class="section dark">
+  <h2>How The True Lemon Works</h2>
+
+  <div class="steps-grid">
     <div class="step">
-      <h4>1. Submit Your Requirement</h4>
-      <p>Tell us exactly what your growth goals are.</p>
+      <span>01</span>
+      <h4>Submit Requirement</h4>
+      <p>Share your sales or marketing need.</p>
     </div>
     <div class="step">
-      <h4>2. Dedicated Manager Assigned</h4>
-      <p>A success manager handles vetting & matching.</p>
+      <span>02</span>
+      <h4>Dedicated Manager</h4>
+      <p>A manager handles vetting and coordination.</p>
     </div>
     <div class="step">
-      <h4>3. Verified Expert Shortlist</h4>
-      <p>Professionals with proven results are selected.</p>
+      <span>03</span>
+      <h4>Verified Experts</h4>
+      <p>Only proven freelancers are shortlisted.</p>
     </div>
     <div class="step">
-      <h4>4. Execution & Real Support</h4>
-      <p>We stay involved until results are delivered.</p>
+      <span>04</span>
+      <h4>Execution & Support</h4>
+      <p>We stay involved till delivery.</p>
     </div>
   </div>
 </section>
 
-<!-- ⭐ TESTIMONIALS -->
-<section id="testimonials" class="section testimonials-section">
-  <h2>Trusted By Businesses Worldwide</h2>
-  <div class="cards testimonial-cards">
-    <div class="card testimonial">
-      <h4>⭐⭐⭐⭐⭐ Michael C.</h4>
+<!-- TRUST -->
+<section id="trust" class="section">
+  <h2>Trusted by Growing Businesses</h2>
+
+  <div class="testimonial-grid">
+    <div class="testimonial">
+      ⭐⭐⭐⭐⭐
+      <p>
+        “This feels nothing like Upwork. Dedicated manager made everything smooth.”
+      </p>
+      <strong>Michael Carter</strong>
       <span>CEO, SaaS Company</span>
-      <p>"The dedicated manager approach changed our order velocity." </p>
     </div>
-    <div class="card testimonial">
-      <h4>⭐⭐⭐⭐⭐ Sarah J.</h4>
-      <span>Marketing Head, E-Commerce</span>
-      <p>"True Lemon helped us scale leads with no hassle." </p>
+
+    <div class="testimonial">
+      ⭐⭐⭐⭐⭐
+      <p>
+        “We scaled lead generation in weeks, not months.”
+      </p>
+      <strong>Sarah Johnson</strong>
+      <span>Marketing Head</span>
     </div>
-    <div class="card testimonial">
-      <h4>⭐⭐⭐⭐⭐ Alex B.</h4>
+
+    <div class="testimonial">
+      ⭐⭐⭐⭐⭐
+      <p>
+        “Quality freelancers, zero hassle.”
+      </p>
+      <strong>Alex Brown</strong>
       <span>Startup Founder</span>
-      <p>"A professional marketplace built for results." </p>
     </div>
   </div>
 </section>
 
-<!-- ✉ CONTACT+FORM -->
-<section id="contact" class="section contact-section">
+<!-- FORM -->
+<section id="form" class="section dark">
   <h2>Get Started</h2>
+
   <form class="form"
     action="https://formsubmit.co/YOUR_EMAIL@gmail.com"
     method="POST">
 
     <input type="hidden" name="_captcha" value="false">
 
-    <input type="text" name="name" placeholder="Your Full Name" required>
-    <input type="email" name="email" placeholder="Your Email Address" required>
+    <input type="text" name="name" placeholder="Full Name" required>
+    <input type="email" name="email" placeholder="Email Address" required>
 
-    <select name="role" id="roleSelect" required>
+    <select name="role" required>
       <option value="">I am a...</option>
-      <option value="Client">Client / Business</option>
-      <option value="Freelancer">Freelancer</option>
+      <option>Client / Business</option>
+      <option>Freelancer</option>
     </select>
 
-    <div id="freelancerFields" style="display:none">
-      <select name="skill">
-        <option>Primary Skill (Freelancer)</option>
-        <option>Lead Generation</option>
-        <option>Sales Closers</option>
-        <option>Performance Marketing</option>
-        <option>CRM Automation</option>
-      </select>
-      <select name="experience">
-        <option>Experience</option>
-        <option>0–1 years</option>
-        <option>1–3 years</option>
-        <option>3–5 years</option>
-        <option>5+ years</option>
-      </select>
-      <input type="url" name="portfolio" placeholder="Portfolio / LinkedIn">
-    </div>
+    <select name="service">
+      <option>Service Required / Skill</option>
+      <option>Lead Generation</option>
+      <option>Sales Closer</option>
+      <option>Performance Marketing</option>
+      <option>CRM Automation</option>
+    </select>
 
-    <div id="clientFields" style="display:none">
-      <select name="service">
-        <option>Service Needed (Client)</option>
-        <option>Lead Generation</option>
-        <option>Sales Closers</option>
-        <option>Performance Marketing</option>
-        <option>CRM Setup</option>
-      </select>
-      <select name="budget">
-        <option>Budget Range</option>
-        <option>$300–$500</option>
-        <option>$500–$1000</option>
-        <option>$1000+</option>
-      </select>
-    </div>
+    <textarea name="message" placeholder="Brief details"></textarea>
 
-    <textarea name="message" placeholder="Short detail about your requirement"></textarea>
-    <button class="btn btn-primary" type="submit">Submit</button>
+    <button class="btn-primary">Submit</button>
   </form>
 </section>
 
 <footer class="footer">
-  <p>© 2026 The True Lemon — Built for Results.</p>
+  © 2026 The True Lemon. All rights reserved.
 </footer>
 
 <script src="script.js"></script>
