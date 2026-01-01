@@ -6,7 +6,7 @@ function openForm(role) {
   setTimeout(() => {
     document.getElementById("roleSelect").value = role;
     toggleRoleFields();
-  }, 500);
+  }, 400);
 }
 
 function toggleRoleFields() {
